@@ -51,10 +51,6 @@ button {
 button:hover {
     opacity: 0.9;
 }
-.operations-first {
-    display: flex;
-    flex-direction: row;
-}
 .operations {
     display: flex;
     flex-wrap: wrap;
