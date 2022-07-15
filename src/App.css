@@ -53,6 +53,7 @@ button:hover {
 }
 .operations {
     display: flex;
+    flex-wrap: wrap;
 }
 .operations button {
     flex: 1 1 0%;
@@ -62,6 +63,7 @@ button:hover {
 .digits {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column-reverse;
 }
 .digits button {
     flex:  1 1 33.3333%;
