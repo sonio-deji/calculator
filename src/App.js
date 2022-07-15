@@ -52,7 +52,7 @@ function App() {
     <div className="App">
       <div className="calculator">
       <div className="display"><span>({result ? <span>{result}</span> : ''})</span>{calc}</div>
-      <div className="buttons" onClick={clearAll}>AC</div>
+      <button className="buttons" onClick={clearAll}>AC</button>
       <div className="operations">
         <button className="buttons" onClick={() => expression('/')}>/</button>
         <button className="buttons" onClick={() => expression('*')}>X</button>
@@ -67,8 +67,6 @@ function App() {
         <button className="buttons equals" onClick={answer}>=</button>
               
       </div>
-      cj
-
       </div>
 
     </div>
